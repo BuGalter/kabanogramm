@@ -1,7 +1,16 @@
 {
   "name": "kabanogramm",
   "version": "0.1.0",
-  "private": true,
+  "description": "Kabanogramm",
+  "keywords": [
+    "Messenger",
+    "React",
+    "JavaScript",
+    "TypeScript"
+  ],
+  "author": "BuGalter <wardoc78@gmail.com>",
+  "private": false,
+  "license": "Apache-2.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
