@@ -1,7 +1,7 @@
 import React from 'react';
 import imgLogo from '../assets/logo.svg';
 
-function AppLogo(props: any) {
+function AppLogo() {
   const logoProps = {
     imgLogo,
     altLogo: 'Logo',

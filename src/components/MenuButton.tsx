@@ -1,9 +1,9 @@
 import React from 'react';
 
-function MenuButton(props: any) {
+function MenuButton({ text }: any) {
   return (
     <button className='btn btn-warning' type='button'>
-      { props.text }
+      { text }
     </button>
   );
 }
