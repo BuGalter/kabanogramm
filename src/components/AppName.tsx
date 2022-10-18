@@ -1,9 +1,10 @@
 import React from 'react';
+import { IApp } from '../App';
 
-function AppName(props: any) {
+function AppName({ appName }: IApp) {
   return (
     <div>
-      <h3>{ props.appName }</h3>
+      <h3>{ appName }</h3>
     </div>
   );
 }

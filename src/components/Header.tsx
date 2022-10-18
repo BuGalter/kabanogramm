@@ -1,13 +1,14 @@
 import React from 'react';
+import { IApp } from '../App';
 import Menu from './Menu';
 import AppName from './AppName';
 import AppLogo from './AppLogo';
 
-function Header(props: any) {
+function Header({ appName }: IApp) {
   return (
     <div className="Header">
       <Menu/>
-      <AppName appName={ props.appName }/>
+      <AppName appName={ appName }/>
       <AppLogo/>
     </div>
   );

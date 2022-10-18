@@ -1,12 +1,18 @@
 import React from 'react';
 import Header from './components/Header';
 
+export interface IApp {
+  appName: string
+};
+
 function App() {
-  const appName = 'Kabanogramm';
+  const app: IApp = {
+    appName: 'Kabanogramm',
+  }
 
   return (
     <div className="App">
-      <Header appName={ appName }/>
+      <Header appName={ app.appName }/>
     </div>
   );
 }
