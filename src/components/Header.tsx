@@ -1,5 +1,4 @@
 import React from 'react';
-import './Header.css';
 import Menu from './Menu';
 import AppName from './AppName';
 import AppLogo from './AppLogo';
